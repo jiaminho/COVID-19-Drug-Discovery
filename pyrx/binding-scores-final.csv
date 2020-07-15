@@ -1,0 +1,13 @@
+Ligand,Ligand,Binding Affinity,rmsd/ub, rmsd/lb
+Generated_1,6lu7_idAAAAgen0_uff_E=760.66,-6,0,0
+Generated_2,6lu7_idAAABgen0_uff_E=276.07,-5.5,0,0
+Generated_3,6lu7_idAAACgen0_uff_E=585.04,-6.8,0,0
+Generated_4,6lu7_idAAADgen0_uff_E=748.87,-5.2,0,0
+Generated_5,6lu7_idAAAEgen0_uff_E=973.35,-6.3,0,0
+Generated_6,6lu7_idAAAFgen0_uff_E=320.71,-5.7,0,0
+Remdesivir,6lu7_idAAAGgen0_uff_E=1049.87,-5.3,0,0
+Nelfinavir,6lu7_idAAAHgen0_uff_E=341.75,-5.5,0,0
+Lopinavir,6lu7_idAAAIgen0_uff_E=1512.16,-6.9,0,0
+Ritonavir,6lu7_idAAAJgen0_uff_E=1547.84,-5.3,0,0
+Darunavir,6lu7_idAAAKgen0_uff_E=1033.31,-6.1,0,0
+Atazanavir,6lu7_idAAALgen0_uff_E=510.03,-5.4,0,0
