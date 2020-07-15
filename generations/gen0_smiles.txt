@@ -1,0 +1,6 @@
+CC(C)CN(CC1ON=CC(C)(Cc2ccccc2)C(=O)NC1Cc1ccccc1)NC(=O)OC1COC2C(=O)CCC12
+CC(C)(C)NC(=O)C1CC2CCCCC2CN1CC(O)C(Cc1ccccc1)NC(=O)C(Cc1ccccc1)NC(=O)C(C)(C)C
+Cc1cccc(C)c1OCC(=O)NC(CCc1ccc(O)nc1)NCC(=O)NC(c1ccccc1)C(C)C
+CC(C)c1nc(C(C#N)CC(=O)NC(CCc2ccccc2)C(O)CC(CN(C)C)C(Cc2ccccc2)NC(=O)OCc2ccccc2)cs1
+CC(C)CN(CC(O)C(Cc1ccccc1)NC(=O)OC1COC2OCCC12)S(=O)(=O)c1ccccc1
+COC(=O)NC(CN1CCCCC1C(=O)NC(C(=O)OCc1ccccc1)C(C)C)C(Cc1ccccc1)NC(=O)C(O)C(C)(C)C
