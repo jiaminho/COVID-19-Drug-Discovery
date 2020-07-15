@@ -1,12 +1,12 @@
 # COVID-19 Drug Design using Generative RNN-LSTM
 
-COVID-19 is an infectious disease caused by a newly discovered strain of coronavirus (SARS-CoV-2), a type of virus known to cause respiratory infections in humans. This new strain was unknown before December 2019, when an outbreak of a pneumonia of unidentified cause emerged in Wuhan, China. The first case of COVID-19 in Malaysia was detected on 24 January 2020. 
+COVID-19 is an infectious disease caused by a newly discovered strain of coronavirus (SARS-CoV-2), a type of virus known to cause respiratory infections in humans. This new strain was unknown before December 2019, when an outbreak of a pneumonia of unidentified cause emerged in Wuhan, China.
 
 Basic Local Alignment Search Tool (BLAST) results show close homology to the bat Coronavirus. A crystal structure of the main protease of the virus was obtained by Liu et al., found at https://www.rcsb.org/structure/6LU7
 
 Since the outbreak, researchers have been collaborating and working closely to stop the spread of the disease and to propose possible treatment plans. New advances in machine intelligence have introduced algorithms that can learn important patterns from vast amounts of data, approaching expert-level of ability in some tasks. This means that anyone with these models can contribute to the global research effort. 
 
-My project uses many ideas and implementations developed by others, and bring them together towards a common task. My main reference was [Topazape's](https://github.com/topazape/LSTM_Chem) repo which implements the paper [Generative Recurrent Networks for De Novo Drug Design](https://doi.org/10.1002/minf.201700111). 
+This project uses many ideas and implementations developed by others, and bring them together towards a common task. My main reference was [Topazape's](https://github.com/topazape/LSTM_Chem) repo which implements the paper [Generative Recurrent Networks for De Novo Drug Design](https://doi.org/10.1002/minf.201700111). 
 
 The aim of this project is to find drug candidates (ligand) with a high binding affinity with the COVID-19 main protease using deep learning.
 
@@ -22,7 +22,7 @@ The aim of this project is to find drug candidates (ligand) with a high binding 
 
 6. Use PyRx to get binding scores of molecules with SARS-CoV-2 main protease
 
-7. Highest scoring candidates are reported
+7. Report highest scoring candidates 
 
 
 ## Requirements
@@ -40,9 +40,9 @@ This model is built using Python 3.7, and utilizes the following packages;
 
 ## Dataset Preparation
 
-I combined datasets from two sources: i) [Moses data set](https://github.com/molecularsets/moses) and ii) [ChEMBL data set](https://www.ebi.ac.uk/chembl/). Together these two data sets represent about 2.5 million smiles.
+Datasets from two sources: i) [Moses data set](https://github.com/molecularsets/moses) and ii) [ChEMBL data set](https://www.ebi.ac.uk/chembl/) were combined. Together these two data sets represent about 2.5 million smiles.
 
-Preprocess dataset to remove duplicates, salts, stereochemical information, nucleic acids and long peptides. https://github.com/topazape/LSTM_Chem
+Preprocess dataset to remove duplicates, salts, stereochemical information, nucleic acids and long peptides.
 
 In terminal, cd to the file and run python cleanup_smiles.py datasets/all_smiles.txt datasets/all_smiles_clean.txt
 
@@ -70,7 +70,7 @@ These protease inhibitors SMILES are added into datasets/protease_inhibitors_for
 ## Train LSTM-based RNN model to generate SMILES
 
 #### Configuration
-See `config.json`.
+See `config.json` in base_experiment.
 
 | parameters | meaning |
 | ---- | ---- |
