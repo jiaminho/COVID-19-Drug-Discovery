@@ -145,9 +145,6 @@ Crystal structure of COVID-19 main protease https://www.rcsb.org/structure/6LU7
 
 RDKit https://www.rdkit.org/docs/GettingStartedInPython.html
 
-
-## Related Work
-
 https://github.com/topazape/LSTM_Chem
 
 https://github.com/forkwell-io/fch-drug-discovery
@@ -155,3 +152,5 @@ https://github.com/forkwell-io/fch-drug-discovery
 https://github.com/mattroconnor/deep_learning_coronavirus_cure
 
 https://github.com/tmacdou4/2019-nCov
+
+https://dash-gallery.plotly.host/dash-drug-discovery/
