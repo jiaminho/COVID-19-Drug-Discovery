@@ -141,6 +141,8 @@ PubChem data related to COVID-19 https://pubchemdocs.ncbi.nlm.nih.gov/covid-19
 
 Refer here for COVID-19 drugs in clinical trials https://pubchem.ncbi.nlm.nih.gov/#tab=compound&query=covid-19%20clinicaltrials
 
+Crystal structure of COVID-19 main protease https://www.rcsb.org/structure/6LU7
+
 RDKit https://www.rdkit.org/docs/GettingStartedInPython.html
 
 
