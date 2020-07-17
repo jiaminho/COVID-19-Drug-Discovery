@@ -64,7 +64,7 @@ SMILES obtained from [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
 | Darunavir | CC(C)CN(CC(C(CC1=CC=CC=C1)NC(=O)OC2COC3C2CCO3)O)S(=O)(=O)C4=CC=C(C=C4)N |
 | Atazanavir | CC(C)(C)C(C(=O)NC(CC1=CC=CC=C1)C(CN(CC2=CC=C(C=C2)C3=CC=CC=N3)NC(=O)C(C(C)(C)C)NC(=O)OC)O)NC(=O)OC |
 
-These protease inhibitors SMILES are added into datasets/protease_inhibitors_for_fine-tune.txt
+These protease inhibitors SMILES were added into datasets/protease_inhibitors_for_fine-tune.txt
 
 
 ## Train LSTM-based RNN model to generate SMILES
